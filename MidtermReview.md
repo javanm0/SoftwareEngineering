@@ -62,4 +62,7 @@ Javan Miller
     - 1 calendar month is equivalent to 14 days of real work
       1. Take away weekends and holidays
       1. Apply velocity to account for time spend in the office that isn't spent developing
-    - Is better to under-promise and over-deliver and ensure that proper time is allocated for each iteration 
+    - Is better to under-promise and over-deliver and ensure that proper time is allocated for each iteration
+- Velocity
+  - Accounts for overhead in projects such as meetings, updates, etc.
+  - Is applied before creating iteration length
