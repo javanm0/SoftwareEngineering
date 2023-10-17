@@ -42,4 +42,15 @@ Javan Miller
   - Is written using language that the customer understands
   - Is written by the customer
   - Is short and has no more than three sentences
-  - Should not mention specific technologies 
+  - Should not mention specific technologies
+- Estimation
+  - Each team member that's a part of the planning process has their own estimate
+  - Planning Poker
+    - Is used to consolidate each individual estimate to the team estimate that is then provided to the customer
+    1. Place a user story in the middle of the table
+    1. Give each team member a deck of 13 cards; these cards have numbers similar to the Fibonacci sequence
+    1. Each team member picks an estimate and places the corresponding card face down on the table
+    1. Everyone turns over their cards at the same time
+    1. The dealer marks the spread across the estimates
+    - The larger the difference between estimates, the less confident you are in the estimate, and the more assumptions you need to root ou
+    - Want to get rid of any assumptions and work with the customer to ensure that allow expectations are met  
