@@ -69,3 +69,11 @@ Javan Miller
 - Big Board
   - Dashboard on an office wall to keep track of what work is in the pipeline, what's in progress, and what's done
   - User Stories and Burn Down Rate are typically here
+- Good-enough design
+  - Single Responsibility Principle (SRP)
+    - Each object in the system should have a single responsibility
+    - All the object's services should be focused on carrying out that single responsibility
+  - Don't Repeate Yourself (DRY)
+    - Avoid duplicate code by abstracting or separating out things that are commond and placing those things in a single location
+    - Has each piece of information and behavious in your system in a single, sensible place
+  - Ripple effect - one small change to software can cause a ripple of changes throughout your code
