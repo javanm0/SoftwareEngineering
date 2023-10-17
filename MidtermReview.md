@@ -69,7 +69,7 @@ Javan Miller
 - Big Board
   - Dashboard on an office wall to keep track of what work is in the pipeline, what's in progress, and what's done
   - User Stories and Burn Down Rate are typically here
-- Good-enough design
+- Good-Enough Design
   - Single Responsibility Principle (SRP)
     - Each object in the system should have a single responsibility
     - All the object's services should be focused on carrying out that single responsibility
@@ -77,3 +77,93 @@ Javan Miller
     - Avoid duplicate code by abstracting or separating out things that are commond and placing those things in a single location
     - Has each piece of information and behavious in your system in a single, sensible place
   - Ripple effect - one small change to software can cause a ripple of changes throughout your code
+- Version Control
+  - After an editor and compiler, the version control is the most crucial tool for software development
+  - Software Configuration Management
+    - Tracking and controlling changes to files used in software development
+    - Based on revision control (version control)
+    - Used for managing builds and release
+    - Used for accounting and auditing of process and product
+  - diff and patch
+    - Distribute changes efficiently
+    - Simplistic form of handling versions
+    - diff utility creates a patch file
+    - The patch utility applies the patch file to the starting code to create the updated filem
+  - Version control is essential to coordinating changes among collaborating devs
+  - Dessential to a solitary dev working on anything non-trivial
+  - Text files 
+    - Only understands the lexical level (i.e., a source-code file is a file of characters)
+    - Does not understand structure of code
+    - Does not know what a while statement is
+  - Binary files
+    - Stays on the file level
+  - File locking 
+    - Only one dev at a time has acces to a file or resource
+    - Lock-Modify-Unlock - one dev at a time has the "token" and other devs have to wait
+    - Pros: No merging problems
+    - Cons: Prevents other devs from working; impractical in distributed development due to time/space differences
+  - Version Merging
+    - No restrictions on access
+    - Devs can work simultaneously
+    - Copy-Modify-Merge
+    - Pros: No restrictions on working
+    - Cons: Merge Issues
+  - Current Practice
+    - Most version control users implement Version Merging
+    - File Locking is typically only used for binary files (e.g., MS Word files)
+    - Some old projects and developers use File Locking
+  - Centralized Version Control
+    - Examples: Subversion (SVN), ClearCase, Vault
+    - Has a single central repo and local working copies
+    - Access controlled by the server 
+    - One sequence of version numbers    
+    - Traditional approach
+  - SVN
+    - Remote Repository
+      - The single, central SVN repo is typically running on a remote machine
+    - Working Copy
+      - *Is not* a local repository
+      - Is only the code that you've checked out into your file system
+      - Where you modify your files
+    - URLs identify location of central repo and directories/files in central repo
+    - Each commit has an author
+    - Support for per-dir permissions
+    - Cons:
+      - Need server to create a shared repo
+      - No distinction between private and public changes
+      - Merging is difficult
+      - Branching creates problems
+  - Distributed Version Control
+    - Examples: Git, Bazaar, Darcs, Mercurial, Monotone, SVK
+    - Peer-to-peer, no central repo; all are repo copies
+    - No one sequence of version numbers
+    - Access controlled by server
+  - Git
+    - Developed in 2005 by Linus Torvalds for Linux kernal development
+    - Used by major companies like Microsoft and Apple
+    - Repository
+      - Stored in hidden dir .git
+      - What you clone from another repo
+    - Working Copy
+      - The code you checkout into your filesystem
+      - The files that you see
+      - Where you modify the file
+    - Each commit has a hash - currently SHA1
+    - URL only identifies the location of the repo
+    - Each commit has an author and a committer
+    - Peer-to-peer
+    - Each copy is a full-fledged repo and can be worked on locally without access to central server
+    - Each user clones the repo, makes changes, and pushes the changes
+    - Pros:
+      - Records complete new version
+      - Handles local and remote repos
+      - Tracks merged data
+      - Stages changes 
+      - Fast, flexible, powerful, and multiuser
+    - Cons:
+      - Can be challenging to learn
+      - GUI tools less developed than SVN tools
+  - GitHub
+    - Hosting service for Git
+    - Founded in 2008, purchased by Microsoft in 2018
+    - 372 million repos, with 28 million public repos, and 100 millions users
