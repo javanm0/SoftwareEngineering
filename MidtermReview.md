@@ -53,4 +53,13 @@ Javan Miller
     1. Everyone turns over their cards at the same time
     1. The dealer marks the spread across the estimates
     - The larger the difference between estimates, the less confident you are in the estimate, and the more assumptions you need to root ou
-    - Want to get rid of any assumptions and work with the customer to ensure that allow expectations are met  
+    - Want to get rid of any assumptions and work with the customer to ensure that allow expectations are met 
+- Utopian vs Real-World days
+  - Utopian days
+    - Typically what most programmers will give when asked for an estimate
+    - Better-than-best-case estimate
+  - Real-World days
+    - 1 calendar month is equivalent to 14 days of real work
+      1. Take away weekends and holidays
+      1. Apply velocity to account for time spend in the office that isn't spent developing
+    - Is better to under-promise and over-deliver and ensure that proper time is allocated for each iteration 
