@@ -167,3 +167,12 @@ Javan Miller
     - Hosting service for Git
     - Founded in 2008, purchased by Microsoft in 2018
     - 372 million repos, with 28 million public repos, and 100 millions users
+- Build Files
+  - Lists all prerequisite include files
+  - Make is Turing Complete
+  - Limited internal and external libraries and additional support software
+  - CMake
+    - Build-file generator used to generate build files for many platforms and environments
+    - Has both CLI and GUI tools
+    - Works on Linux, MacOS, and Windows MSVC
+  - Build languages are declarative - expresses logic of a computation without describing its control flow
