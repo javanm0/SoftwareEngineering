@@ -66,3 +66,6 @@ Javan Miller
 - Velocity
   - Accounts for overhead in projects such as meetings, updates, etc.
   - Is applied before creating iteration length
+- Big Board
+  - Dashboard on an office wall to keep track of what work is in the pipeline, what's in progress, and what's done
+  - User Stories and Burn Down Rate are typically here
