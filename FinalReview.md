@@ -143,6 +143,52 @@ alter the external behavior of the code yet improves its internal structure
 - Remove Parameter
 - Extract Hierarchy
 
+### Scrum
+- Scrum - Iterative agile software development framework
+- Time measurements
+    - Sprint
+        - Fixed duration of 1 week to 1 month
+    - Timebox
+        - Fixed amount of time allocated, and when done, the activity is finished
+- Backlog
+    - Product backlog 
+        - List of requirements ordered by business values and needs
+        - Typicall in user story format
+    - Sprint backlog 
+        - List of work the development team attempts in the next sprint
+- Sprint Planning Meeting
+    - Occurs at the start of the sprint
+    - Select what work the team does
+    - Put together the sprint backlog
+    - The entire team works on prioritizing the product backlog (4 hours)
+    - The development team creates a plan for the sprint (4 hours)
+- Story Time
+    - Estimation for backlog using planning poker or other methods
+    - Should not take longer than an hour
+    - Does not include breaking stories into tasks
+    - The team decides the number of meetings per week
+- Daily Scrum Meeting
+    - Everyone on the development team has an update
+    - Limited to 15 minutes at the same location and time everyday
+    - Discuss the following
+        - What have you done since yesterday?
+        - What are you planning to do today?
+        - What obstacles are in your way?
+- Burn Down Chart
+    - The status of the work on the sprint backlog
+- Increment
+    - All the product backlog completed during a sprint
+- Sprint Review Meeting
+    - Review user storeis completed and uncompleted during the sprint
+    - Demo the completed user stories
+    - 4-hour time limit
+- Sprint Retrospective
+    - What went well?
+    - What could be improved?
+    - Entire team reflects on past sprint
+    - Time for making continuous process improvements
+    - 3-hour time limit
+
 ### SE Code of Ethics
 #### Principles
 1. Public
