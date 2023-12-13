@@ -83,3 +83,34 @@ Javan Miller
                 - Transition - release, integration into existing systems
         - Scrum *(more detail below)*
         - And so many more...
+
+### Software Evolution
+- Greenfield Development
+    - Start with nothing and create a finished product with no existing code, design, or
+    previous system
+    - Most SE education stresses greenfield development
+    - Very little greenfield development exists in the real world
+    - What CS students invision themselves doing
+- Brownfield Development
+    - Start with an existing project/environment and create a finished product with existing
+    code, design, or previous system
+    - Most SE education treats brownfield development as a side topic
+    - What most CS students end up doing
+- Maintenance
+    - Corrective Maintenance
+        - Fix bugs/problems
+    - Adaptive Maintenance
+        - Change to fit new environment (API, compiler)
+    - Perfective Maintenance
+        - Improve performance or maintainability
+    - Preventative Maintenance
+        - Detect and correct latent problems before they become actual problems
+    - Maintenance is roughly 80% of the cost of the system over its lifetime
+- Lehman's Laws of Software Evolution
+    - Software must change over time
+    - Changes cause complexity; complexity increases the cost of change
+    - Software projects in an organization tend towards the same quality, bug rate, etc.
+    - Over time, the rate of development for each iteration doesn't very much
+    - Must implement features that were previously not considered necessary
+    - Without changes, the software appears to decrease in quality
+    - What affects software evolutiojn is a multi-level, multi-iteration process
