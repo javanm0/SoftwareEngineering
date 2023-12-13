@@ -114,3 +114,31 @@ Javan Miller
     - Must implement features that were previously not considered necessary
     - Without changes, the software appears to decrease in quality
     - What affects software evolutiojn is a multi-level, multi-iteration process
+
+### Refactoring
+- Refactoring - the process of changing a software system in such a way that it does not
+alter the external behavior of the code yet improves its internal structure
+- Testing must be in place before making any refactoring changes
+- The current, expected behavior of the software must not change during refactoring
+- Legacy Code - any code that does not have a unit-testing suite
+- Why Refactor?
+    - Design Preservation
+        - Refactoring improves the design of existing code
+    - Comprehension
+        - Refactoring makes code more readable
+    - Debugging
+        - Greater program comprehension leads to easier debugging
+    - Faster Programming
+        - Good design is essential for rapid development
+        - Poor design allows for quick process but soon slows process down
+            - Spend time debugging
+            - Changes take longer as you understand the system and find duplicate code
+        - Supported by Lehman's Laws
+#### Refactoring Techniques
+- Introduce Explaining Variable
+- Rename Method
+- Move Method
+- Pull-Up Method
+- Change Value to Reference
+- Remove Parameter
+- Extract Hierarchy
