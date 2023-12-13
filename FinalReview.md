@@ -142,3 +142,30 @@ alter the external behavior of the code yet improves its internal structure
 - Change Value to Reference
 - Remove Parameter
 - Extract Hierarchy
+
+### SE Code of Ethics
+#### Principles
+1. Public
+1. Client and Employer
+1. Product
+1. Judgement
+1. Management
+1. Profession
+1. Colleagues
+1. Self
+
+#### Definitions
+1. Public - Software engineers should act consistently with the public interest
+1. Client and Employer - Software engineers should act in a manner that is in the best interest
+of their client and employer consistent with the public interest
+1. Product - Software engineers should ensure that their products and related modifications meet
+the highest professional standards possible
+1. Judgment - Software engineers shall maintain integrity and independence in their professional
+judgment
+1. Management - Software engineering managers and leaders shall subscribe to and promote an
+ethical approach to the management of software development and maintenance
+1. Profession - Software engineers shall advance the integrity and reputation of the profession
+consistent with the public interest
+1. Colleagues - Software engineers shall be fair to and supportive of their colleagues
+1. Self - Software engineers shall participate in lifelong learning regarding the practice of
+their profession and shall promote an ethical approach to the practice of the profession
