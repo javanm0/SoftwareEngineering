@@ -31,3 +31,15 @@ Javan Miller
         - Proper error handling
         - Working as documented
         - Proper handling of resource constraints
+
+### Use Case and Use Case Diagram
+**Need to be able to draw a diagram**
+- Use Cases
+    - Describes what a system does but now how it does it
+    - Achieves a discrete goal for the user
+    - May map to several use cases
+    - Represent the functional requirements of the system 
+        - *Note: Non-functional requirements are stated elsewhere*
+- UML Use Case Diagrams
+    - Describes a set of sequences
+    - Represents actors with the system itself
