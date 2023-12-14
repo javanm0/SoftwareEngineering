@@ -193,6 +193,24 @@ alter the external behavior of the code yet improves its internal structure
     - Reversal from the Servicing Stage to the Evolution Stage
     - Very expensive and rare
 
+### Software Change
+- Software Change is the process of changing existing code
+- Maintenance Change Categories [Lietz, et al. '78]
+    - Perfective
+        - Improve documentation
+        - Rewrite code for computational efficiency
+        - Improve software design
+    - Adaptive
+        - Accommodate changes to data inputs, files, and hardware and system software
+    - Corrective
+        - Emergency fixes, routine debugging
+- Concept location
+    - Determines where a change needs to occure in the code
+- Impact analysis
+    - Determine the impact of change on an existing system
+    - Change has not occurred yet
+    - Class dependencies are analyzed, and impacted classes are added to the impact set
+
 ### Scrum
 - Scrum - Iterative agile software development framework
 - Time measurements
