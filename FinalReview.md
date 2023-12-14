@@ -154,6 +154,12 @@ alter the external behavior of the code yet improves its internal structure
     - Green Stage: Your test passes
     - Refactor Stage: Clean up any duplication, ugliness, old code, etc.
 
+### Git Commit Messages
+- Limit the subject line to 50 characters
+- Capitalize the subject line
+- Do not end the subject line with a period
+- Use the imperative modd in the subject line (command or instruction)
+
 ### Scrum
 - Scrum - Iterative agile software development framework
 - Time measurements
