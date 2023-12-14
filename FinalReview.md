@@ -143,6 +143,17 @@ alter the external behavior of the code yet improves its internal structure
 - Remove Parameter
 - Extract Hierarchy
 
+### TDD - Test Driven Development
+- Test first
+- In TDD, tests drive your implementation
+- After getting the first test to fail, write code to get the test to pass
+- Write just the code you have to in order for the first test to pass
+- After getting it to pass, refactor the code
+- TDD Process
+    - Red Stage: Your test fails
+    - Green Stage: Your test passes
+    - Refactor Stage: Clean up any duplication, ugliness, old code, etc.
+
 ### Scrum
 - Scrum - Iterative agile software development framework
 - Time measurements
