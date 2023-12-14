@@ -160,6 +160,39 @@ alter the external behavior of the code yet improves its internal structure
 - Do not end the subject line with a period
 - Use the imperative modd in the subject line (command or instruction)
 
+### Software Lifespan Models
+- Staged Model
+    1. Initial development
+        - Need to make fundamental decisions
+        - Technologies
+        - Architecture
+        - Program domain knowledge
+    1. Evolution
+        - Adapt application to the ever-changing user and operating environement
+        - Add new features
+        - Correct mistakes and misunderstandings
+        - Program typically grows in size and functionality
+        - Evolution is possible due to software architecture and knowledge of the
+        software team
+    1. Servicing
+        - Program no longer evolves
+    1. Phaseout
+        - No more servicing
+        - System may still be in production
+        - Users must work around deficiencies
+    1. Closedown
+        - Software is disconnected from users
+        - Users are redirected to a replacement
+        - "Exit Strategy" is needed
+- Symption: Code Decay
+    - Loss of software coherence
+    - Loss of software knowledge
+        - Less coherent software requires more extensive knowledge
+        - If knowledge is lost, changes lead to faster deterioration
+- Possible Solution: Reengineering
+    - Reversal from the Servicing Stage to the Evolution Stage
+    - Very expensive and rare
+
 ### Scrum
 - Scrum - Iterative agile software development framework
 - Time measurements
